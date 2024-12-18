@@ -1,0 +1,63 @@
+<LinearLayout
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="First Name"
+        android:textColor="#000"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fname"
+        android:hint="First Name"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Last Name"
+        android:textColor="#000"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lname"
+        android:hint="Last Name"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Purpose"
+        android:textColor="#000"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/purpo"
+        android:hint="Purpose"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Whom to meet"
+        android:textColor="#000"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/whomeet"
+        android:hint="Whom to meet"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/addsubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bmenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="back to menu"/>
+
+</LinearLayout>
